@@ -8,7 +8,7 @@ fun main(args: Array<String>) {
     )
     
     // returns 0 if age is null
-    val oldest = person.maxBy { it.age ?: 0 }
+    val oldest: Person? = person.maxBy { it.age ?: 0 }
 
     println("The oldest is $oldest")
 }
