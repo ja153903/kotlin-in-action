@@ -8,6 +8,7 @@ fun main(args: Array<String>) {
     vehicle.drive()
 
     // automatically casted into Bicycle
+    // inside the scope of the if statement
     if (vehicle is Bicyle) {
         vehicle.replaceWheel()
     }
